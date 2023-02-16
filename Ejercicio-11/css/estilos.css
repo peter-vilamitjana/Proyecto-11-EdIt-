@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&family=Roboto:wght@400;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&family=Roboto:wght@400;700;900&display=swap');
 
 
 /* **************
@@ -26,7 +26,7 @@ body {
 
 h1 {
     font-family: "Poppins", "sans-serif";
-    font-weight: 900;
+    font-weight: 900px;
     color: #e7eaed;
     font-size: 50px;
     text-align: center;
@@ -35,8 +35,7 @@ h1 {
     border-right: 15px solid transparent;
     border-left: 15px solid transparent;
     margin-top: 30px;
-
-    /* font-family: 'Roboto', 'sans-serif'; */
+    
 }
 
 form {
@@ -60,6 +59,11 @@ fieldset:focus-within > legend{
     
 }
 
+input, #nacionalidad{
+    color: #4D6D62;
+    font-size: 15px;
+}
+
 legend {
     background-color: #4D6D62;
     color: #ffffff;
@@ -69,16 +73,18 @@ legend {
     text-transform: uppercase;
     /* text-transform: capitalize; */
     padding: 10px;
-    font-weight: 300;
+    font-weight: 300px;
     border-radius: 5px;
 }
 
-#nombre,#apellido,#documento,#telefono,#mail{
+#nombre,#apellido,#documento,#telefono,#mail,#nacionalidad, #contanos{
     display: block;
     margin: 10px auto;
-    width: 700px;
+    width: 75%;
     height: 35px;
     text-align: right;
+    margin-left: 12%;
+    margin-right: 10%;
 }
 
 #sexo{
@@ -91,8 +97,10 @@ legend {
     margin-bottom: 30px;
 }
 
-#nombre:focus,#apellido:focus,#documento:focus,textarea:focus,#telefono:focus,#mail:focus{
-background-color: #4D6D62;
+#nombre:focus,#apellido:focus,#documento:focus,#contanos:focus,#telefono:focus,#mail:focus{
+    background-color: #4D6D62;
+    color: #ffffff;
+    font-size: 15px;
 }
 
 select{
@@ -102,7 +110,7 @@ select{
     height: 35px;
 }
 
-textarea{
+#contanos{
     display: block;
     margin: 10px auto;
     width: 700px;
