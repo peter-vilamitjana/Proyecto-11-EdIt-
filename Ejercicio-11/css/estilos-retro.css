@@ -1,0 +1,15 @@
+/* Paleta
+#2b303a
+#F7FFE0
+#F2EFC7
+#D2BBA0
+#9F7E69
+
+Deben utilizar, como mínimo, las propiedades de CSS necesarias para establecer:
+- imágenes de fondo
+- sombras de texto y/o caja
+- bordes redondeados
+ */
+body{
+    background-color: pink;
+}

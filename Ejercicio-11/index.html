@@ -5,9 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">               
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Afiliacion</title>
-    <link rel="stylesheet" href='css/estilos.css'>
+    <link id='paginaDeEstilo' rel="stylesheet" href='css/estilos.css'>
 </head>
 <body>
+    <div class="buttons-container">
+        <button onclick="cambiarEstilo('css/estilos.css')" id="estandar">Estilo Estándar</button>
+        <button onclick="cambiarEstilo('css/estilos-retro.css')" id="retro">Estilo Retro</button>
+        <button onclick="cambiarEstilo('css/estilos-futuro.css')" id="futuro">Estilo Futuro</button>
+    </div>   
+    <!-- <header>
+        <input type="button" id="botonEstiloEstandar" value="Estilo Estandar"></button>
+        <input type="button" id="botonEstiloRetro" value="Estilo Retro"></button>
+        <input type="button" id="botonEstiloFuturista" value="Estilo Futurista"></button>
+    </header> -->
 
     <h1>Vení al Gym! 💪🏻</h1>
     <form>
@@ -115,6 +125,9 @@
     <input type="submit" value="Iniciar afiliación" class="boton01">
     <input type="reset" value="Restablecer" class="boton01">
     </section>
+
+    <script src="javascript.js">
+    </script>
 </form>
 </body>
 </html>
