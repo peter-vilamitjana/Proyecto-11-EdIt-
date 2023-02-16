@@ -11,7 +11,7 @@
 
     <h1>Vení al Gym! 💪🏻</h1>
     <form>
-    <fieldset>
+    <fieldset id="datos-personales">
         <legend>🙋🏼‍♀️ Datos Personales 👀</legend>
         <section>
         <label for="nombre"> Nombre: *</label>
@@ -23,26 +23,26 @@
         </section>
         <section>
         <label for="documento"> Documento: *</label>
-        <input type='number' id="documento" required>
+        <input type='text' id="documento" required>
         </section>
         <section>
         <label for="nacionalidad"> Nacionalidad: *</label>
         <select id="nacionalidad" name="nacionalidad" required>
-            <option>-Seleccionar-</option>
-            <option>Argentina</option>
-            <option>Brasileña</option>
-            <option>Uruguaya</option>
-            <option>Otra</option>
+            <option value=""> - Seleccionar - </option>
+            <option value="argentina">Argentina</option>
+            <option value="brasileña">Brasileña</option>
+            <option value="uruguaya">Uruguaya</option>
+            <option value="otra">Otra</option>
         </select>
         </section>
         <div>
         <label for="contanos"> Contanos un poco de vos...</label>
         <textarea name="contanos" id="contanos" cols="30" rows="5"></textarea>
         </div>
-        <section>
-        <label for="sexo">Sexo:*</label>
-        </section>
-        <section>
+        <section id="elegir-sexo">
+        <label for="sexo" id="sexo">Sexo:*</label>
+        <!-- </section>
+        <section> -->
         <input type='radio' id="sexoF" name="sexo" value="Femenino" checked>
         <label for="sexoF">Femenino</label>
         <input type='radio' id="sexoM" name="sexo" value="Femenino">
@@ -50,14 +50,13 @@
         <input type='radio' id="sexoO" name="sexo" value="Femenino">
         <label for="sexoO">Otro</label>
         </section>
-        <!-- <input type="submit"> -->
     </fieldset>
 
-    <fieldset>
+    <fieldset id="datos-de-contacto">
         <legend>📱 Datos de Contacto 🏥</legend>
         <section>
         <label for="telefono"> Telefono:</label>
-        <input type='number' id="telefono" placeholder="Código de área y número">
+        <input type='text' id="telefono" placeholder="Código de área y número">
         </section>
         <section>
         <label for="mail"> Dirección de correo electrónico: *</label>
@@ -65,7 +64,7 @@
         </section>
     </fieldset>
 
-    <fieldset>
+    <fieldset id="actividades">
         <legend>🚴🏻‍♀️ Actividades 🤸🏻‍♀️</legend>
         <section>
         Por favor, indicá cuáles actividades te interesan:
@@ -94,7 +93,6 @@
         <input type='checkbox' id="voley">
         <label for="voley"> Voley</label>
     </section>
-        
     </fieldset>
 
     <section>

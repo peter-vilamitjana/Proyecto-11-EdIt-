@@ -48,21 +48,55 @@ fieldset {
 }
 
 legend {
-    background-color: #2b3d36;
+    background-color: #4D6D62;
     color: #ffffff;
     text-align: left;
     margin: 15px;
-
+    text-transform: uppercase;
+    /* text-transform: capitalize; */
     padding: 10px;
+    font-weight: 300;
+    border-radius: 5px;
 }
 
-legend::first-letter {
-    font-size: 50px;
+#nombre,#apellido,#documento,#telefono,#mail{
+    display: block;
+    margin: 10px auto;
+    width: 700px;
+    height: 35px;
+    text-align: right;
 }
 
-/* //- 'Roboto', sans-serif
-- 'Poppins', sans-serif */
+#sexo{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
 
+#elegir-sexo{
+    margin-bottom: 30px;
+}
+
+#nombre:focus,#apellido:focus,#documento:focus,textarea:focus,#telefono:focus,#mail:focus{
+background-color: #4D6D62;
+}
+
+select{
+    display: block;
+    margin: 10px auto;
+    width: 700px;
+    height: 35px;
+}
+
+textarea{
+    display: block;
+    margin: 10px auto;
+    width: 700px;
+}
+
+#actividades{
+    text-align: left;
+}
 /* *************************
 *                          *
 *    estilos de botones    *
