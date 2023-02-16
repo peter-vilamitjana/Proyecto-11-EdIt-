@@ -55,7 +55,7 @@
     <fieldset id="datos-de-contacto">
         <legend>📱 Datos de Contacto 🏥</legend>
         <section>
-        <label for="telefono"> Telefono:</label>
+        <label for="telefono"> Teléfono:</label>
         <input type='text' id="telefono" placeholder="Código de área y número">
         </section>
         <section>
@@ -66,12 +66,13 @@
 
     <fieldset id="actividades">
         <legend>🚴🏻‍♀️ Actividades 🤸🏻‍♀️</legend>
-        <section>
+        <section id="indicacion">
         Por favor, indicá cuáles actividades te interesan:
         </section>
-        <section>
+        <section id="sede">
         Sede Palermo:
         </section>
+        <section id="opciones-palermo">
         <input type='checkbox' id="basquet">
         <label for="basquet"> Básquet</label>
         <input type='checkbox' id="boxeo">
@@ -80,10 +81,11 @@
         <label for="futbol"> Fútbol</label>
         <input type='checkbox' id="tenis">
         <label for="tenis"> Tenis</label>
-        
-        <section>
+        </section>
+        <section id="sede">
         Sede Rosario:
         </section>
+        <section id="opciones-rosario">
         <input type='checkbox' id="basquet">
         <label for="basquet"> Básquet</label>
         <input type='checkbox' id="futbol">
@@ -92,18 +94,21 @@
         <label for="rugby"> Rugby</label>
         <input type='checkbox' id="voley">
         <label for="voley"> Voley</label>
+        </section>
     </section>
     </fieldset>
 
-    <section>
+    <section id="condiciones">
     <input type='checkbox' id="condiciones" required>
     <label for="condiciones">Acepto las condiciones*</label>
     </section>
-    <section>    
+    <section id="novedades">    
     <input type='checkbox' id="novedades">
     <label for="novedades">Deseo recibir novedades</label>
     </section>
-    <section>*: campo obligatorio.</section>
+    <section id="obligatorio">
+        *: campo obligatorio.
+    </section>
 
     <input type="submit" value="Iniciar afiliación" class="boton01">
     <input type="reset" value="Restablecer" class="boton01">

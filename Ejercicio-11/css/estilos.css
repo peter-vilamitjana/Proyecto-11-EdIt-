@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&family=Roboto:wght@400;700;900&display=swap');
+
 
 /* **************
 *               *
@@ -45,6 +46,8 @@ form {
 fieldset {
     background-color: #d5e2de;
     margin: 20px;
+    border: solid #4D6D62;
+    border-radius: 5px;
 }
 
 legend {
@@ -52,6 +55,7 @@ legend {
     color: #ffffff;
     text-align: left;
     margin: 15px;
+    margin-bottom: 30px;
     text-transform: uppercase;
     /* text-transform: capitalize; */
     padding: 10px;
@@ -96,12 +100,50 @@ textarea{
 
 #actividades{
     text-align: left;
+    
 }
+
+#sede{
+    padding: 20px;
+}
+
+#indicacion{
+    font-size: 15px;
+    font-weight:lighter;
+    margin-left: 20px;
+    /* margin-top: 20px; */
+}
+
+#basquet{
+    /* display: block; */
+    margin-left: 20px;
+}
+
+#opciones-rosario{
+    margin-bottom: 20px;
+}
+
+
 /* *************************
 *                          *
 *    estilos de botones    *
 *                          *
 ************************* */
+
+#condiciones, #novedades, #obligatorio{
+    color: #ffffff;
+    margin: 5px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#obligatorio{
+    /* font-family: "Poppins"; */
+    font-weight: bold;
+    font-size: 15px;
+    /* margin-left: 30px; */
+
+}
 
 .boton01 {
     border-radius: 5px;
