@@ -10,6 +10,13 @@ Deben utilizar, como mínimo, las propiedades de CSS necesarias para establecer:
 - sombras de texto y/o caja
 - bordes redondeados
  */
-body{
-    background-color: pink;
+
+
+body  {
+    text-align: center;
+    margin: auto 20%;
+    max-width: 1200px;
+    background-image: url(../Imagenes/fondo.png);
+    background-color: transparent;
 }
+
