@@ -32,7 +32,11 @@ Los 3 diseños (el que harán basado en el mío, y los otros dos) tienen que ser
 
 Aclaración: poner simplemente imágenes de fondo, buscando simplemente cumplir la consigna de generar estilos distintos, no se tomará como válido si el diseño no está cuidado. Es decir, no podemos poner una cara de fondo y arriba de la misma poner un input tapando un ojo, queda claramente mal. Las imágenes de fondo permiten repetirse, cambiar su ubicación, etc, para que todo quede bien situado. Cuiden los detalles y dedíquenle tiempo. Los diseños tienen que verse bien al cambiar el tamaño de la ventana.
 
+
+************** FALTA ESTO **************
 Por último, deberán agregar al principio del documento un botón (input o button) que permita pasar por los 3 estilos, de forma alternada. De esta manera, cuando la página se cargue, deberá hacerlo con los estilos de CSS base, es decir, los diseñados por mí. Al presionar el botón se deberán cargar los estilos de uno de los diseños elaborados or ustedes. Luego, al presionarlo de nuevo, deberán aplicarse los estilos del otro archivo adicional que ustedes agreguen. Para finalizar, al volver a presionar el botón se deberá cargar nuevamente el primer archivo CSS y así comienza el ciclo de nuevo (css1 --> css2 --> css3 --> css1 --> css2, etc...).
+
+
 
 Bonus 1: Adicionar otro botón que contenga una imagen que represente algo "aleatorio" (ej: dados, pero pueden buscar otra cosa) que, al ser presionado, aplique uno de los estilos de forma aleatoria o los quite todos.
 
