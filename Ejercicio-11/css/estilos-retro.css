@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Monoton&family=Pacifico&family=Special+Elite&display=swap');
+
 /* Paleta
 #2b303a
 #F7FFE0
@@ -10,6 +12,144 @@ Deben utilizar, como mínimo, las propiedades de CSS necesarias para establecer:
 - sombras de texto y/o caja
 - bordes redondeados
  */
-body{
-    background-color: pink;
+
+
+body  {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    font-family: 'Special Elite';
+    font-weight: 100px;
+    font-size: 18px;
+    background-image: url(../Imagenes/fondo.png);
+    /* background-color: transparent; */
+    /* background-size: contain; */
+    /* background-size: cover; */
+    background-size: 25% auto;
+}
+
+h1{
+    background-color:#2b303acb ;
+    color: #F7FFE0;
+    /* text-shadow: #FFCC00 1px 0 10px; */
+    text-shadow: #f89050 1px 0 10px;
+    font-family: 'Fascinate';
+    font-size:55px;
+    border-radius: 10px;
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10% / 30%;
+    padding: 20px;
+    border: solid ;
+    text-transform: uppercase;
+}
+.buttons-container{
+    background-color: #00000065;
+    padding: 5px;
+    display: block;
+    max-width: 50%;
+    /* border-radius: 0% 40% 10% 45% / 43% 29% 0% 31%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover{
+    /* background-color: #F7FFE0; */
+    background-color: #2b303acb ;
+    color: #F7FFE0;
+}
+
+form{
+    background-color: #edd2a6b1;
+    height: 1000px;
+}
+
+legend{
+    background-color: #F2EFC7;
+    display: block;
+    text-align: left;
+    border: dotted 4px #9F7E69;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 90% / 20%;
+}
+
+fieldset{
+    background-color: #D2BBA0;
+    padding: 10px;
+    /* margin: 10px; */
+    border: solid #9F7E69 2px;
+    display: block;
+}
+
+label{
+    /* background-color: pink; */
+    display: block;
+    text-align-last: left;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#elegir-sexo, #opciones-palermo, #opciones-rosario{
+    margin: 10px 10px 10px 0px;
+    display: inline-flex;
+    margin-right: 80%;
+}
+
+#indicacion{
+    /* font-size: 15px; */
+    text-align: left;
+    margin-top: 15px;
+    text-decoration: underline wavy;
+}
+
+#sede{
+    text-align: left;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+#nombre,#apellido,#documento,#telefono,#mail,#nacionalidad, #contanos{
+    display: block;
+    width: 98%;
+    height: 30px;    
+    font-size: 18px;
+    color: #725746;
+    font-family: 'Special Elite';
+}
+
+#condiciones, #novedades{
+    display: inline-flex;
+    background-color: #D2BBA0;
+    margin: 5px;
+    text-align: left;
+    border: solid #725746;
+    font-size: 12px;
+}
+
+#obligatorio{
+    background-color:#F2EFC7;
+    text-align: left;
+    width: 15%;
+    border: double 5px;
+    font-size: 15px;
+    font-family: 'Pacifico';
+}
+
+.boton01{
+    display: inline-flex;
+    background-color: #725746fe;
+    margin: 5px;
+    height:50px;
+    padding: 5px;
+    color: #F2EFC7;
+    font-size: 20px;
+}
+
+.boton01:hover{
+    color: #725746fe;
+    background-color: #F2EFC7;
 }
