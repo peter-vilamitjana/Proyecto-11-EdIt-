@@ -37,7 +37,7 @@ Aclaración: poner simplemente imágenes de fondo, buscando simplemente cumplir 
 Por último, deberán agregar al principio del documento un botón (input o button) que permita pasar por los 3 estilos, de forma alternada. De esta manera, cuando la página se cargue, deberá hacerlo con los estilos de CSS base, es decir, los diseñados por mí. Al presionar el botón se deberán cargar los estilos de uno de los diseños elaborados or ustedes. Luego, al presionarlo de nuevo, deberán aplicarse los estilos del otro archivo adicional que ustedes agreguen. Para finalizar, al volver a presionar el botón se deberá cargar nuevamente el primer archivo CSS y así comienza el ciclo de nuevo (css1 --> css2 --> css3 --> css1 --> css2, etc...).
 
 
-
+************** ESTO NO LO HICIMOS **************
 Bonus 1: Adicionar otro botón que contenga una imagen que represente algo "aleatorio" (ej: dados, pero pueden buscar otra cosa) que, al ser presionado, aplique uno de los estilos de forma aleatoria o los quite todos.
 
 Bonus 2: Agregar un botón con el texto "Recordar" que, al ser presionado, debe lograr que el CSS aplicado actualmente se recuerde si se vuelve a cargar la página o se ingresa más tarde (Tip: LocalStorage). Se le deberán aplicar estilos al botón para que luego de ser presionado parezca quedar "hundido", lo cual supondría que se están recordando los estilos elegidos. Al presionarlo de nuevo debe visualizarse igual que al principio, es decir, levantado, no hundido y eliminar la funcionalidad de recordar los estilos.
