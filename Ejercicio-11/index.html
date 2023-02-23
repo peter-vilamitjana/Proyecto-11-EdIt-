@@ -1,128 +1,157 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">               
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Afiliacion</title>
-    <link id='paginaDeEstilo' rel="stylesheet" href='css/estilos.css'>
-</head>
-<body>
-    <div class="buttons-container">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Afiliacion</title>
+        <link
+            id="paginaDeEstilo"
+            rel="stylesheet"
+            href="css/estilos.css"
+            class="estilo"
+        />
+    </head>
+    <body>
+        <!-- <div class="buttons-container">
         <button onclick="cambiarEstilo('css/estilos.css')" id="estandar">Estilo Estándar</button>
         <button onclick="cambiarEstilo('css/estilos-retro.css')" id="retro">Estilo Retro</button>
         <button onclick="cambiarEstilo('css/estilos-futuro.css')" id="futuro">Estilo Futuro</button>
-    </div>   
-    
-    <h1>Vení al Gym! 💪🏻</h1>
-    <form>
-    <fieldset id="datos-personales">
-        <legend>🙋🏼‍♀️ Datos Personales 👀</legend>
-        <section>
-        <label for="nombre" > Nombre: *</label>
-        <input type='text' id="nombre" required autofocus>
-        </section>
-        <section>
-        <label for="apellido"> Apellido: *</label>
-        <input type='text' id="apellido" required>
-        </section>
-        <section>
-        <label for="documento"> Documento: *</label>
-        <input type='text' id="documento" required>
-        </section>
-        <section>
-        <label for="nacionalidad"> Nacionalidad: *</label>
-        <select id="nacionalidad" name="nacionalidad" required>
-            <option value=""> - Seleccionar - </option>
-            <option value="argentina">Argentina</option>
-            <option value="brasileña">Brasileña</option>
-            <option value="uruguaya">Uruguaya</option>
-            <option value="otra">Otra</option>
-        </select>
-        </section>
-        <div>
-        <label for="contanos"> Contanos un poco de vos...</label>
-        <textarea name="contanos" id="contanos" cols="30" rows="5"></textarea>
-        </div>
-        <section id="elegir-sexo">
-        <label for="sexo" id="sexo">Sexo:*</label>
-        <!-- </section>
+    </div>    -->
+        <a href="#submit" id="botonCambiar">Cambiar Estilo</a>
+
+        <h1>Vení al Gym! 💪🏻</h1>
+        <form>
+            <fieldset id="datos-personales">
+                <legend>🙋🏼‍♀️ Datos Personales 👀</legend>
+                <section>
+                    <label for="nombre"> Nombre: *</label>
+                    <input type="text" id="nombre" required autofocus />
+                </section>
+                <section>
+                    <label for="apellido"> Apellido: *</label>
+                    <input type="text" id="apellido" required />
+                </section>
+                <section>
+                    <label for="documento"> Documento: *</label>
+                    <input type="text" id="documento" required />
+                </section>
+                <section>
+                    <label for="nacionalidad"> Nacionalidad: *</label>
+                    <select id="nacionalidad" name="nacionalidad" required>
+                        <option value="">- Seleccionar -</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="brasileña">Brasileña</option>
+                        <option value="uruguaya">Uruguaya</option>
+                        <option value="otra">Otra</option>
+                    </select>
+                </section>
+                <div>
+                    <label for="contanos"> Contanos un poco de vos...</label>
+                    <textarea
+                        name="contanos"
+                        id="contanos"
+                        cols="30"
+                        rows="5"
+                    ></textarea>
+                </div>
+                <section id="elegir-sexo">
+                    <label for="sexo" id="sexo">Sexo:*</label>
+                    <!-- </section>
         <section> -->
-        <input type='radio' id="sexoF" name="sexo" value="Femenino" checked>
-        <label for="sexoF">Femenino</label>
-        <input type='radio' id="sexoM" name="sexo" value="Masculino">
-        <label for="sexoM">Masculino</label>
-        <input type='radio' id="sexoO" name="sexo" value="Otro">
-        <label for="sexoO">Otro</label>
-        </section>
-    </fieldset>
-    <div id="datos-de-contacto">
-    <fieldset>
-        <legend>📱 Datos de Contacto 🏥</legend>
-        <section>
-        <label for="telefono"> Teléfono:</label>
-        <input type='text' id="telefono" placeholder="Código de área y número">
-        </section>
-        <section>
-        <label for="mail"> Dirección de correo electrónico: *</label>
-        <input type='text' id="mail" placeholder="Ej: mail@gmail.com" required>
-        </section>
-    </fieldset>
-</div>
+                    <input
+                        type="radio"
+                        id="sexoF"
+                        name="sexo"
+                        value="Femenino"
+                        checked
+                    />
+                    <label for="sexoF">Femenino</label>
+                    <input
+                        type="radio"
+                        id="sexoM"
+                        name="sexo"
+                        value="Masculino"
+                    />
+                    <label for="sexoM">Masculino</label>
+                    <input type="radio" id="sexoO" name="sexo" value="Otro" />
+                    <label for="sexoO">Otro</label>
+                </section>
+            </fieldset>
+            <div id="datos-de-contacto">
+                <fieldset>
+                    <legend>📱 Datos de Contacto 🏥</legend>
+                    <section>
+                        <label for="telefono"> Teléfono:</label>
+                        <input
+                            type="text"
+                            id="telefono"
+                            placeholder="Código de área y número"
+                        />
+                    </section>
+                    <section>
+                        <label for="mail">
+                            Dirección de correo electrónico: *</label
+                        >
+                        <input
+                            type="text"
+                            id="mail"
+                            placeholder="Ej: mail@gmail.com"
+                            required
+                        />
+                    </section>
+                </fieldset>
+            </div>
 
-    <fieldset id="actividades">
-        <legend>🚴🏻‍♀️ Actividades 🤸🏻‍♀️</legend>
-        <section id="indicacion">
-        Por favor, indicá cuáles actividades te interesan:
-        </section>
-        <section id="sede">
-        Sede Palermo:
-        </section>
-        <section id="opciones-palermo">
-        <input type='checkbox' id="basquet">
-        <label for="basquet"> Básquet</label>
-        <input type='checkbox' id="boxeo">
-        <label for="boxeo"> Boxeo</label>
-        <input type='checkbox' id="futbol">
-        <label for="futbol"> Fútbol</label>
-        <input type='checkbox' id="tenis">
-        <label for="tenis"> Tenis</label>
-        </section>
-        <section id="sede">
-        Sede Rosario:
-        </section>
-        <section id="opciones-rosario">
-        <input type='checkbox' id="basquet">
-        <label for="basquet"> Básquet</label>
-        <input type='checkbox' id="futbol">
-        <label for="futbol"> Fútbol</label>
-        <input type='checkbox' id="rugby">
-        <label for="rugby"> Rugby</label>
-        <input type='checkbox' id="voley">
-        <label for="voley"> Voley</label>
-        </section>
-    </section>
-    </fieldset>
+            <fieldset id="actividades">
+                <legend>🚴🏻‍♀️ Actividades 🤸🏻‍♀️</legend>
+                <section id="indicacion">
+                    Por favor, indicá cuáles actividades te interesan:
+                </section>
+                <section id="sede">Sede Palermo:</section>
+                <section id="opciones-palermo">
+                    <input type="checkbox" id="basquet" />
+                    <label for="basquet"> Básquet</label>
+                    <input type="checkbox" id="boxeo" />
+                    <label for="boxeo"> Boxeo</label>
+                    <input type="checkbox" id="futbol" />
+                    <label for="futbol"> Fútbol</label>
+                    <input type="checkbox" id="tenis" />
+                    <label for="tenis"> Tenis</label>
+                </section>
+                <section id="sede">Sede Rosario:</section>
+                <section id="opciones-rosario">
+                    <input type="checkbox" id="basquet" />
+                    <label for="basquet"> Básquet</label>
+                    <input type="checkbox" id="futbol" />
+                    <label for="futbol"> Fútbol</label>
+                    <input type="checkbox" id="rugby" />
+                    <label for="rugby"> Rugby</label>
+                    <input type="checkbox" id="voley" />
+                    <label for="voley"> Voley</label>
+                </section>
+            </fieldset>
 
-    <section id="condiciones">
-    <input type='checkbox' id="condiciones" required>
-    <label for="condiciones">Acepto las condiciones*</label>
-    </section>
-    <section id="novedades">    
-    <input type='checkbox' id="novedades"checked>
-    <label for="novedades" >Deseo recibir novedades</label>
-    </section>
-    <section id="obligatorio">
-        *: campo obligatorio.
-    </section>
+            <section id="condiciones">
+                <input type="checkbox" id="condiciones" required />
+                <label for="condiciones">Acepto las condiciones*</label>
+            </section>
+            <section id="novedades">
+                <input type="checkbox" id="novedades" checked />
+                <label for="novedades">Deseo recibir novedades</label>
+            </section>
+            <section id="obligatorio">*: campo obligatorio.</section>
 
-    <section id="botones">
-    <input type="submit" value="Iniciar afiliación" class="boton01">
-    <input type="reset" value="Restablecer" class="boton01">
-    </section>
+            <section id="botones">
+                <input
+                    type="submit"
+                    value="Iniciar afiliación"
+                    class="boton01"
+                />
+                <input type="reset" value="Restablecer" class="boton01" />
+            </section>
 
-    <script src="javascript.js">
-    </script>
-</form>
-</body>
+            <script src="javascript.js"></script>
+        </form>
+    </body>
 </html>
